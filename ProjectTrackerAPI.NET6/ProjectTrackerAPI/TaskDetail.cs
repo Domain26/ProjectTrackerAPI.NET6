@@ -1,6 +1,6 @@
 ﻿namespace ProjectTrackerAPI.NET6.ProjectTrackerAPI
 {
-    public class TaskDetails
+    public class TaskDetail
     {
         public int Id { get; set; }
         public string? Name { get; set; }

@@ -14,7 +14,7 @@ namespace ProjectTrackerAPI.NET6.ProjectTrackerAPI
 
         [ForeignKey("TaskDetails")]
         public int TaskId { get; set; }
-        public TaskDetails? TaskDetails { get; set; }
+        public TaskDetail? TaskDetails { get; set; }
         public string? Task { get; internal set; }
     }
 }

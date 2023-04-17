@@ -30,5 +30,7 @@ namespace ProjectTrackerAPI
                 new Projects { Id = 2, Name = "Project B", Type = "Type B", Description = "Description B", Country = "Canada", Responsible = "Person B", StartDate = DateTime.Now, EndDate = DateTime.Now.AddDays(14), Status = "Inactive" }
             );
         }
+
+        public DbSet<ProjectTrackerAPI.NET6.ProjectTrackerAPI.TaskDetail>? TaskDetails { get; set; }
     }
 }
